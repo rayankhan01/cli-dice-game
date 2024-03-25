@@ -1,0 +1,22 @@
+{
+  "name": "rayankhan1-cli-dice-game",
+  "version": "1.0.0",
+  "description": "This is cli based dice game.",
+  "main": "index.js",
+  "type": "module",
+  "publishConfige": {
+    "access": "public"
+  },
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rayan Khan",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
